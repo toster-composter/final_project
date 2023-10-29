@@ -53,7 +53,7 @@ class Main(tk.Frame):
         btn_search = tk.Button(tool_bar, bg='#d7d8e0', bd=0, image=self.search_img, command=self.open_search)
         btn_search.pack(side=tk.LEFT)
 
-        self.refresh_img = tk.PhotoImage(file='test_project/img/refresh.png')
+        self.refresh_img = tk.PhotoImage(file='img/refresh.png')
         btn_refresh = tk.Button(tool_bar, bg='#d7d8e0', bd=0, image=self.refresh_img, command=self.view_record)
         btn_refresh.pack(side=tk.LEFT)
 
