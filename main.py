@@ -31,23 +31,23 @@ class Main(tk.Frame):
         self.tree.heading('email', text='E-mail')
         self.tree.pack(side=tk.LEFT)
 
-        self.add_img = tk.PhotoImage(file='test_project/img/add.png')
+        self.add_img = tk.PhotoImage(file='img/add.png')
         btn_open_dialog = tk.Button(tool_bar, bg='#d7d8e0', bd=0, image=self.add_img, command=self.open_dialog)
         btn_open_dialog.pack(side=tk.LEFT)
 
-        self.update_png = tk.PhotoImage(file='test_project/img/change.png')
+        self.update_png = tk.PhotoImage(file='img/change.png')
         btn_edit = tk.Button(tool_bar, bg='#d7d8e0', bd=0, image=self.update_png, command=self.open_editor)
         btn_edit.pack(side=tk.LEFT)
 
-        self.delete_img = tk.PhotoImage(file='test_project/img/delete.png')
+        self.delete_img = tk.PhotoImage(file='img/delete.png')
         btn_delete = tk.Button(tool_bar, bg='#d7d8e0', bd=0, image=self.delete_img, command=self.delete_record)
         btn_delete.pack(side=tk.LEFT)
 
-        self.search_img = tk.PhotoImage(file='test_project/img/search.png')
+        self.search_img = tk.PhotoImage(file='img/search.png')
         btn_search = tk.Button(tool_bar, bg='#d7d8e0', bd=0, image=self.search_img, command=self.open_search)
         btn_search.pack(side=tk.LEFT)
 
-        self.refresh_img = tk.PhotoImage(file='test_project/img/refresh.png')
+        self.refresh_img = tk.PhotoImage(file='img/refresh.png')
         btn_refresh = tk.Button(tool_bar, bg='#d7d8e0', bd=0, image=self.refresh_img, command=self.view_record)
         btn_refresh.pack(side=tk.LEFT)
 
